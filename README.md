@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+## Dag's R tips pages
 
-You can use the [editor on GitHub](https://github.com/DagHjermann/DagHjermann.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This site will basically contain some R tips. Not much added yet, I'm afraid, but please come back!  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
