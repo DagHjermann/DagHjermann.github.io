@@ -1,7 +1,6 @@
 
-## A collection of links to WWW resources on R \
-
-1. Basic/intermediate stuff
+# A collection of links to WWW resources on R / RStudio / statistics   
+**1. Basic/intermediate stuff**
 
 Other R link collections:
 
