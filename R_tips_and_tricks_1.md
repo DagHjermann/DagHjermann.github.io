@@ -1,31 +1,6 @@
 
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 1; WARNINGs: 0; ALERTS: 18.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p><a href="#gdcalert1">alert1</a>
-<a href="#gdcalert2">alert2</a>
-<a href="#gdcalert3">alert3</a>
-<a href="#gdcalert4">alert4</a>
-<a href="#gdcalert5">alert5</a>
-<a href="#gdcalert6">alert6</a>
-<a href="#gdcalert7">alert7</a>
-<a href="#gdcalert8">alert8</a>
-<a href="#gdcalert9">alert9</a>
-<a href="#gdcalert10">alert10</a>
-<a href="#gdcalert11">alert11</a>
-<a href="#gdcalert12">alert12</a>
-<a href="#gdcalert13">alert13</a>
-<a href="#gdcalert14">alert14</a>
-<a href="#gdcalert15">alert15</a>
-<a href="#gdcalert16">alert16</a>
-<a href="#gdcalert17">alert17</a>
-<a href="#gdcalert18">alert18</a>
-
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
 ## A collection of links to WWW resources on R \
+
 1. Basic/intermediate stuff
 
 Other R link collections:
@@ -130,22 +105,10 @@ Inside debugging:
 
 [http://stackoverflow.com/questions/1295955/what-is-the-most-useful-r-trick](http://stackoverflow.com/questions/1295955/what-is-the-most-useful-r-trick)
 
-**Learning functions**
+**Learning functions**  
 
-
-
-name_of_function
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition term(s) &uarr;&uarr; missing definition? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-
-
-
-example(name_of_function) - runs the examples in the help page! E.g.,
-
+`?name_of_function`
+`example(name_of_function)` - runs the examples in the help page! E.g.,
 
 ```
 example(image)
@@ -366,13 +329,6 @@ In menu Tools:Global Options, “Code” in the menu on the left, tab “Saving�
 System default in RStudio is [ISO-8859-1 (Latin-1)](https://no.wikipedia.org/wiki/ISO_8859-1), which _does _include Norwegian letters, but in practice there often some trouble anyway. More on ANSI, UTF-8 and Unicode here and here.
 
 In base R, the program will use ISO-8859-1 by default (IFAIK), but note that it can read [scripts ](https://stackoverflow.com/a/5588488/1734247)and csv files (see below) with UTF encoding.
-
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/R-tips0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/R-tips0.png "image_tooltip")
 
 
 <span style="text-decoration:underline;">If Norwegian letters are “destroyed”</span>: try to open the file in Notepad++ and try out the “Encoding” menu. From this menu one can also convert e.g. an ANSI file to UTF-8.
@@ -712,13 +668,6 @@ skim(iris)
 iris %>% dplyr::group_by(Species) %>% skim()   
 
 
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/R-tips1.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/R-tips1.png "image_tooltip")
-
-
 [inspectdf](https://github.com/alastairrushworth/inspectdf) - collection of utilities for columnwise summary, comparison and visualisation of data frames. Especially nice for comparing two data frames.
 
 
@@ -872,13 +821,6 @@ Ikke registrert,99
 **Program [Tabula](https://tabula.technology/)** (screenshot below) - not an R program, depends on Java. For text-based PDFs. Opens up in your web-browser where you can select the table area. <span style="text-decoration:underline;">Tip 1</span>: Can extract multi-page tables, just mark it as several areas (however, you probably have to do some corrections in Excel afterwards). <span style="text-decoration:underline;">Tip 2</span>: if you have chemical names involved (e.g. Indeno(1,2,3cd)pyren) ,export tables as TSV (not CSV). Installed on my laptop in folder ‘C:\Data\tabula-win-1.2.1\tabula’.
 
 
-
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/R-tips2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/R-tips2.png "image_tooltip")
-
-
 **R zip and unzip**
 
 [http://www.r-bloggers.com/make-your-date-folder-clean-with-function-unzip-unz/](http://www.r-bloggers.com/make-your-date-folder-clean-with-function-unzip-unz/)
@@ -1002,8 +944,6 @@ Also see application to forecast.io data using Rforecastio, see below
 **For GeoJSON/TopoJSON, see “Maps” section**
 
 
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "Maps"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 [Maps](#heading=h.sqoho6vh0kn3)
 
@@ -1896,16 +1836,7 @@ These are functions that return functions. Made for leaflet, but can be generall
 
 **Using symbols/expressions in labels: expression()**
 
-
-
-plotmath in R
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition term(s) &uarr;&uarr; missing definition? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
-
+Try `? plotmath` in R  
 
 
 **Examples of expression()**
@@ -2162,15 +2093,7 @@ See “broom” part below
 
 **Fonts and special characters in ggplot**
 
-
-
-par (see “family”)
-
-
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: Definition term(s) &uarr;&uarr; missing definition? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-
+`?par` (see “family”)
 
 
 
@@ -2282,13 +2205,6 @@ _<span style="text-decoration:underline;">Parallell coordinate plots</span>_
 [Code recipe](http://www.joyce-robbins.com/blog/2016/06/02/datavis-with-rdrawing-a-cleveland-dot-plot-with-ggplot2/) (plot below)
 
 [Another](https://uc-r.github.io/cleveland-dot-plots) 
-
-
-
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/R-tips3.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/R-tips3.png "image_tooltip")
 
 
 **GGalt - interpolating splines, improved map projection, improved density plots, [encircling points automagically](https://github.com/hrbrmstr/ggalt#encircling-points-automagically)**
